@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@noble/secp256k1": "^1.5.5",
+    "jayson": "^3.6.6",
+    "nodemon": "^2.0.16",
+    "parcel": "^2.5.0"
+  }
+}
