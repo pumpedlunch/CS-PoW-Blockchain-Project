@@ -11,7 +11,6 @@ function startMining() {
 }
 function stopMining() {
     mining = false;
-    console.log('mining set to false');
 }
 
 async function mine() {

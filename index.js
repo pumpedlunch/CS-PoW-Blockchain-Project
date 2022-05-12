@@ -6,12 +6,11 @@ const {PORT} = require('./config.js');
 const server = new jayson.Server({
   startMining: function(_, callback) {
     startMining();
-    callback(null, 'start mining');
+    callback(null, 'mining started!');
   },
   stopMining: function(_, callback) {
-    console.log('trying to stop mining')
     stopMining();
-    callback(null, 'stop mining!');
+    callback(null, 'mining stopped!');
   }
 });
 
